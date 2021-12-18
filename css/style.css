@@ -1,0 +1,64 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css");
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #246eea;
+}
+.logo .icon {
+  font-size: 32px;
+  line-height: 32px;
+  margin-right: 5px;
+}
+
+li.active {
+  color: red;
+}
+
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 30%;
+}
+.carousel{
+  width: 50%;
+ 
+
+
+  /* Center vertically and horizontally */
+ 
+}
+
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.carousel-item:hover .image {
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.carousel-item:hover .middle {
+  opacity: 1;
+}
+
+ .latest{
+  text-align: center;
+  margin: 0px auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: block;
+ }
